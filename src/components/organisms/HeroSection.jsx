@@ -1,14 +1,18 @@
 import React from "react"
 import { motion } from "framer-motion"
-import { useNavigate } from "react-router-dom"
 import ApperIcon from "@/components/ApperIcon"
 import Button from "@/components/atoms/Button"
 
-const HeroSection = () => {
-  const navigate = useNavigate()
+const HeroSection = ({ onClientPortalOpen }) => {
+  const handleContactClick = () => {
+    const contactSection = document.getElementById('contact')
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: 'smooth' })
+    }
+  }
   
   const handleClientPortal = () => {
-    window.open("http://support.techlopers.com", "_blank")
+    onClientPortalOpen?.()
   }
   
   return (
@@ -43,10 +47,10 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: 0.4 }}
           >
-            <Button
+<Button
               variant="primary"
               size="lg"
-              onClick={() => navigate("/contact")}
+              onClick={handleContactClick}
               className="flex items-center gap-2 px-8 py-4"
             >
               <ApperIcon name="MessageSquare" className="h-5 w-5" />

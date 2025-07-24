@@ -1,0 +1,109 @@
+[
+  {
+    "Id": 1,
+    "name": "Admin User",
+    "email": "admin@techlopers.com",
+    "password": "admin123",
+    "company": "Techlopers Solutions Pvt. Ltd.",
+    "status": "Active",
+    "memberSince": "2016-01-15",
+    "lastLogin": "2024-01-15",
+    "tickets": [
+      {
+        "Id": 1,
+        "subject": "Website Loading Speed Issue",
+        "description": "Our company website has been loading slowly for the past few days. Page load times are averaging 5-8 seconds which is affecting user experience and SEO rankings.",
+        "priority": "high",
+        "status": "in-progress",
+        "createdAt": "2024-01-10",
+        "updatedAt": "2024-01-12",
+        "clientId": 1
+      },
+      {
+        "Id": 2,
+        "subject": "Email Configuration Help",
+        "description": "Need assistance setting up email forwarding for our domain. Want to forward info@ourcompany.com to multiple team members.",
+        "priority": "medium",
+        "status": "resolved",
+        "createdAt": "2024-01-08",
+        "updatedAt": "2024-01-09",
+        "clientId": 1
+      },
+      {
+        "Id": 3,
+        "subject": "Database Backup Verification",
+        "description": "Request to verify that our database backups are running correctly and test restore procedure.",
+        "priority": "low",
+        "status": "closed",
+        "createdAt": "2024-01-05",
+        "updatedAt": "2024-01-07",
+        "clientId": 1
+      }
+    ]
+  },
+  {
+    "Id": 2,
+    "name": "John Smith",
+    "email": "john.smith@example.com",
+    "password": "password123",
+    "company": "Smith Enterprises",
+    "status": "Active",
+    "memberSince": "2018-03-22",
+    "lastLogin": "2024-01-14",
+    "tickets": [
+      {
+        "Id": 4,
+        "subject": "SSL Certificate Renewal",
+        "description": "Our SSL certificate is expiring next month and we need assistance with the renewal process.",
+        "priority": "medium",
+        "status": "open",
+        "createdAt": "2024-01-12",
+        "updatedAt": "2024-01-12",
+        "clientId": 2
+      },
+      {
+        "Id": 5,
+        "subject": "Mobile App Bug Report",
+        "description": "Users are reporting crashes when trying to upload images through our mobile app. Issue seems to affect both iOS and Android versions.",
+        "priority": "high",
+        "status": "in-progress",
+        "createdAt": "2024-01-11",
+        "updatedAt": "2024-01-13",
+        "clientId": 2
+      }
+    ]
+  },
+  {
+    "Id": 3,
+    "name": "Sarah Johnson",
+    "email": "sarah@creativestudio.com",
+    "password": "creative2024",
+    "company": "Creative Studio LLC",
+    "status": "Active",
+    "memberSince": "2019-07-10",
+    "lastLogin": "2024-01-13",
+    "tickets": [
+      {
+        "Id": 6,
+        "subject": "Server Maintenance Window",
+        "description": "Need to schedule a maintenance window for server updates. Prefer weekend timing to minimize business impact.",
+        "priority": "low",
+        "status": "open",
+        "createdAt": "2024-01-09",
+        "updatedAt": "2024-01-09",
+        "clientId": 3
+      }
+    ]
+  },
+  {
+    "Id": 4,
+    "name": "Demo Client",
+    "email": "demo@client.com",
+    "password": "demo123",
+    "company": "Demo Company Inc.",
+    "status": "Trial",
+    "memberSince": "2024-01-01",
+    "lastLogin": "2024-01-15",
+    "tickets": []
+  }
+]
