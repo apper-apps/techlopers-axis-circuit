@@ -1,0 +1,23 @@
+[
+  {
+    "Id": 1,
+    "type": "Registered",
+    "location": "South Delhi, India",
+    "address": "K-1292/15, Ground Floor, Sangam Vihar, South Delhi, India",
+    "mapUrl": ""
+  },
+  {
+    "Id": 2,
+    "type": "Corporate",
+    "location": "Noida, India",
+    "address": "Noida, Uttar Pradesh, India",
+    "mapUrl": ""
+  },
+  {
+    "Id": 3,
+    "type": "Global",
+    "location": "New York, USA",
+    "address": "New York, United States",
+    "mapUrl": ""
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "Id": 1,
+    "quote": "Professional, timely, and highly skilled. Our entire IT ecosystem now runs smoothly thanks to Techlopers.",
+    "author": "Rajesh Kumar",
+    "company": "Enterprise Retail Client",
+    "rating": 5
+  },
+  {
+    "Id": 2,
+    "quote": "Reliable infrastructure support with a very responsive team. They understand our business needs perfectly.",
+    "author": "Sarah Johnson",
+    "company": "Director, Fintech Company",
+    "rating": 5
+  },
+  {
+    "Id": 3,
+    "quote": "Their support system is fast, accountable, and always available when we need them most.",
+    "author": "Amit Sharma",
+    "company": "Manufacturing Solutions Ltd.",
+    "rating": 5
+  },
+  {
+    "Id": 4,
+    "quote": "Techlopers redesigned our ERP ecosystem—flawless execution and excellent project management.",
+    "author": "Michael Chen",
+    "company": "Tech Startup Founder",
+    "rating": 5
+  },
+  {
+    "Id": 5,
+    "quote": "Their server and network team helped us reduce downtime by 80%. Exceptional technical expertise.",
+    "author": "Priya Patel",
+    "company": "Healthcare Systems Inc.",
+    "rating": 5
+  },
+  {
+    "Id": 6,
+    "quote": "Outstanding cybersecurity implementation. We feel completely secure with their monitoring solutions.",
+    "author": "David Rodriguez",
+    "company": "Financial Services Corp.",
+    "rating": 5
+  }
+]

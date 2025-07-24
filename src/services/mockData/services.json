@@ -1,0 +1,44 @@
+[
+  {
+    "Id": 1,
+    "title": "Software & App Development",
+    "description": "From mobile apps to enterprise web platforms, we build fast, scalable, and secure applications tailored to your business needs.",
+    "icon": "Code",
+    "techStack": "React, Flutter, Laravel, Node.js, AWS"
+  },
+  {
+    "Id": 2,
+    "title": "ERP & IT Consulting",
+    "description": "We analyze, advise, and implement ERP solutions that simplify operations and improve business efficiency.",
+    "icon": "Settings",
+    "techStack": "SAP, Oracle, Odoo"
+  },
+  {
+    "Id": 3,
+    "title": "Networking & Server Management",
+    "description": "Reliable installation, monitoring, and troubleshooting of network systems and data centers for optimal performance.",
+    "icon": "Network",
+    "techStack": "LAN/WAN, VPN, Firewalls, Remote Access"
+  },
+  {
+    "Id": 4,
+    "title": "Cybersecurity Solutions",
+    "description": "Safeguard your infrastructure with real-time monitoring, access control, and advanced threat prevention systems.",
+    "icon": "Shield",
+    "techStack": "Firewall, Endpoint Security, Threat Detection"
+  },
+  {
+    "Id": 5,
+    "title": "Hardware Procurement & Configuration",
+    "description": "We procure, install, and manage IT hardware tailored to your business requirements and budget.",
+    "icon": "HardDrive",
+    "techStack": "Servers, Workstations, Cabling, Configurations"
+  },
+  {
+    "Id": 6,
+    "title": "Cloud Solutions & Migration",
+    "description": "Seamless cloud migration and management services to improve scalability and reduce operational costs.",
+    "icon": "Cloud",
+    "techStack": "AWS, Azure, Google Cloud, Hybrid Solutions"
+  }
+]
